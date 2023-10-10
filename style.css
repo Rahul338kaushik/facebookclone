@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #cfcdcd;
+    /* font-family: 'Montserrat',sans-serif; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+    position: relative;
+}
+.content{
+    position: relative;
+}
+.content h1{
+    color: rgb(66, 103, 178);
+    position: absolute;
+    top: 175px;
+    left: 224px;
+    font-size: 64px;
+}
+.content p{
+    position: absolute;
+    top: 250px;
+    left: 225px;
+    font-size: 30px;
+}
+.loginbox{
+    position: relative;
+    top: 126px;
+    left: 775px;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.loginbox h1{
+    color: rgb(66, 103, 178);
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.finput{
+    height: 38px;
+    width: 276px;
+    border: 2px solid #6c6161;
+    border-radius: 10px;
+    margin-bottom: 11px;
+    padding-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.finput:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    cursor: pointer;
+}
+.pass{
+    cursor: pointer;
+    height: 38px;
+    width: 276px;
+    border: 2px solid #6c6161;
+    border-radius: 10px;
+    margin-bottom: 11px;
+    padding-left: 10px;
+}
+.pass:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    cursor: pointer;
+}
+.btn_login{
+    height: 38px;
+    width: 290px;
+    border: 2px solid black;
+    border-radius: 9px;
+    color: white;
+    background: rgb(66, 103, 178);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.btn_login:hover{
+    cursor: pointer;
+    height: 40px;
+    width: 293px;
+    font-size: 19px;
+}
+.loginbox a{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+}
+.loginbox a:hover{
+    color: green;
+    font-size: 17px;
+}
+
+.btn_create{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 43px;
+    width: 230px;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 11px;
+}
+.btn_create:hover{
+    cursor: pointer;
+    height: 45px;
+    width: 234px;
+    font-size: 19px ;
+}
